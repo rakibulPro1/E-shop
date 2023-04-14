@@ -5,15 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eshop Ecommerce Website.</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap  -->
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h2 class="text-center text-danger">Hello Eshob ecommerce website</h2>
+
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img width="50" src="images/shopping-bag-icon.png" alt="site icon">
+        <span class="text-uppercase fw-lighter">Eshop</span>
+      </a>
+
+      <div class="d-flex ">
+        <button type="btn" class="btn position-relative">
+          <i class="fa fa-shopping-cart "></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary ">5</span>
+        </button>
+        <button type="btn" class="btn position-relative">
+          <i class="fa fa-heart "></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge bg-primary ">5</span>
+        </button>
+        <!-- SEARCH BUTTON -->
+        <!-- <div class="input-group ms-3">
+          <div class="form-outline">
+            <input type="search" id="form1" class="form-control" />
+            
+          </div>
+          <button type="button" class="btn btn-primary">
+            <i class="fas fa-search"></i>
+          </button>
+        </div> -->
+
+      </div>
+      <!-- NAVBAR TOGGOLER ICON  -->
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav">
+          
+        </ul>
+
+      </div> -->
+    </div>
+  </nav>
+  <!-- end of navbar  -->
+
+  <!-- HEADER  -->
+  <header id="header" class="vh-100">
+    <div class="container">
+      <div class="py-5">
+        <h2 class="text-capitalize text-white ">Best Collection</h2>
+        <h1 class="text-capitalize fw-bold py-2 mb-4 text-white">NEW ARRIVALS</h1>
+        <a href="#" class="shop-btn text-uppercase ">Shop Now</a>
+      </div>
+    </div>
+  </header>
+  <!-- END OF HEADER  -->
+  
 
     
     
 
-
+    <script src="js/jquery-3.6.4.js"></script>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
